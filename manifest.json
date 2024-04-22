@@ -1,0 +1,30 @@
+{
+	"lang": "en",
+	"name": "GemoyTV",
+	"scope": "/",
+	"display": "standalone",
+	"start_url": "/",
+	"short_name": "GemoyTV",
+	"theme_color": "#000000",
+	"orientation": "portrait",
+	"background_color": "#18191c",
+	"related_applications": [],	      
+    "description": "Live Streaming Sport",
+	"serviceworker": {
+        "src": "/",
+        "scope": "/",
+        "use_cache": true
+    },
+    "icons": [
+        {
+            "src": "https://cdn.jsdelivr.net/gh/soponta/GemoyTV@main/gemoytv.jpg",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "https://cdn.jsdelivr.net/gh/soponta/GemoyTV@main/gemoytv.jpg",
+            "sizes": "256x256",
+            "type": "image/png"
+        }	
+    ]
+}
